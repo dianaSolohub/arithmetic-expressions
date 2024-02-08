@@ -1,25 +1,24 @@
 package com.epam.rd.autotasks.arithmeticexpressions;
 
 public class Variable implements Expression {
-    private final String name;
-    private int value;
 
     public Variable(String name, int value) {
-        this.name = name;
-        this.value = value;
+        //implement this method
     }
 
     public void setValue(int value) {
-        this.value = value;
+        //implement this method
     }
 
     @Override
     public int evaluate() {
-        return value;
+        //implement this method
+        return 0;
     }
 
     @Override
     public String toExpressionString() {
-        return name;
+        //implement this method
+        return null;
     }
 }
